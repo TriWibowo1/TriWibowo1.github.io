@@ -18,7 +18,7 @@
   </head>
   <body id="home">
     <!-- Navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark shadow" style="background-color: #865d03">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark shadow" style="background-color: #865d03" id="navbar">
       <div class="container">
         <a class="navbar-brand" href="#home">PORTFOLIO</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +33,7 @@
               <a class="nav-link" href="#about">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#gallery">Gallery</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -45,17 +45,19 @@
     <!-- Akhir Navbar -->
 
     <!-- Jumbotron -->
-    <section class="jumbotron text-center">
+    <section class="jumbotron text-center" id="welcome-section">
       <img src="img/img1.jpeg" alt="1" width="200" class="rounded-circle img-thumbnail mb-5" />
       <h1 class="display-4">TRI WIBOWO CAHYO</h1>
       <p class="lead">WEB DEVELOPER | FRONT END PROGRAMMER</p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <a href="https://github.com/TriWibowo1" target="_blank" class="btn btn-dark btn-github" id="profile-link">Follow my github <i class="bi bi-github"></i></a>
+      <!-- <svg class="wave1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
           fill-opacity="1"
           d="M0,32L48,69.3C96,107,192,181,288,208C384,235,480,213,576,192C672,171,768,149,864,160C960,171,1056,213,1152,202.7C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
-      </svg>
+      </svg> -->
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,32L40,37.3C80,43,160,53,240,96C320,139,400,213,480,202.7C560,192,640,96,720,101.3C800,107,880,213,960,224C1040,235,1120,149,1200,101.3C1280,53,1360,43,1400,37.3L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg> -->
     </section>
     <!-- Akhir Jumbotron -->
 
@@ -69,53 +71,62 @@
         </div>
         <div class="row text-center justify-content-center">
           <div class="col-md-4">
-            <p>Hello, Saya Tri 25 tahun lulusan SMK saya bekerja di sebuah perusahaan swasta yang bergerak dibidang produk dan jasa terkait dengan hukum, sebagai Staff Notaris.</p>
+            <p>Hallo, Saya Tri Wibowo Cahyo Lulusan SMK, dan sedang bekerja di perusahaan swasta yang bergerak dibidang pelayanan jasa maupun produk hukum yang ada di malang, sebagai staff Notaris</p>
           </div>
           <div class="col-md-4">
-            <p>Ini adalah Submission/Project latihan untuk membangun Web portfolio dan mengasah skill programming, agar bisa menjadi seorang WEB DEVELOPER | FRONT END PROGRAMMER</p>
+            <p>IIni adalah Project sekaligus Tugas akhir untuk membangun Web Portfolio, serta menjadi bahan latihan untuk kedepannya bisa menjadi seorang Web Developer | Front End Engineer yang professional</p>
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#f3e7c1"
-          fill-opacity="1"
-          d="M0,128L48,154.7C96,181,192,235,288,224C384,213,480,139,576,122.7C672,107,768,149,864,149.3C960,149,1056,107,1152,96C1248,85,1344,107,1392,117.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3e7c1" fill-opacity="1" d="M0,192L48,170.7C96,149,192,107,288,112C384,117,480,171,576,165.3C672,160,768,96,864,85.3C960,75,1056,117,1152,149.3C1248,181,1344,203,1392,213.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     </section>
     <!-- Akhir about -->
 
-    <!-- Gallery -->
-    <section id="gallery">
-      <div class="container">
+    <!-- Projects -->
+    <section id="projects" style="background-color:#f3e7c1">
+      <div class="container mt-" >
         <div class="row text-center mb-3 justify-content-center">
           <div class="col">
-            <h2 class="gallery">GALLERY</h2>
+            <h2 class="gallery">Projects</h2>
           </div>
         </div>
         <div class="row">
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/img2.jpg" class="card-img-top" alt="2">
+            <div class="card project-tile">
+              <img src="img/a7x.png" class="card-img-top" alt="2">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">A7X Tribute Page</h5>
+                <p class="card-text">Ini adalah project pembuatan tribute untuk Band Avenged Sevenfold</p>
+                <a href="https://triwibowo1.github.io/a7x-tribute-page/" target="_blank" class="btn btn-primary">Detail Project &raquo;</a>
               </div>
             </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/img3.jpg" class="card-img-top" alt="3">
+            <div class="card project-tile">
+              <img src="img/survey-from.png" class="card-img-top" alt="3">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">A7X Survey Form</h5>
+                <p class="card-text">Ini adalah project pembuatan Form Survey untuk Band Avenged Sevenfold</p>
+                <a href="https://triwibowo1.github.io/a7x-survey-form/" target="_blank" class="btn btn-primary">Detail Project &raquo;</a>
               </div>
             </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/img4.jpg" class="card-img-top" alt="4">
-              </div>
+            <div class="card project-tile">
+              <img src="img/tech-docs.png" class="card-img-top" alt="4">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Technical Documentation</h5>
+              <p class="card-text">Ini adalah project pembuatan Technical documentation Javascript Variables</p>
+              <a href="https://triwibowo1.github.io/Technical-Docs/" target="_blank" class="btn btn-primary">Detail Project &raquo;</a>
+            </div>
             </div>
           </div>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,64L30,74.7C60,85,120,107,180,149.3C240,192,300,256,360,240C420,224,480,128,540,106.7C600,85,660,139,720,133.3C780,128,840,64,900,85.3C960,107,1020,213,1080,218.7C1140,224,1200,128,1260,85.3C1320,43,1380,53,1410,58.7L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
     </section>
-    <!-- Akhir Gallery -->
+    <!-- Projects -->
 
     <!-- Contact -->
     <section id="contact">
@@ -148,11 +159,12 @@
     <!-- Akhir Contact -->
 
     <!-- footer -->
-    <footer>
+    <footer class="footer">
       <p>Created with <i class="bi bi-suit-heart-fill"></i> by <a href="https://www.instagram.com/granada_trii/" class="text-white">Tri Wibowo Cahyo</a></p>
     </footer>
     <!-- Akhir Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
